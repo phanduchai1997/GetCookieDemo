@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">AI Powered Ads</string>
+    <string name="sign_in">Sign-in</string>
+    <string name="email_or_phone">Email or Phone number</string>
+    <string name="password">Password</string>
+    <string name="title_register">Register new account</string>
+    <string name="title_country">Your billing country/region</string>
+    <string name="primarily_used">This account is primarity used to</string>
+    <string name="a_business">A business, to promote goods and services</string>
+    <string name="a_individual">An individual, to promote personal websites or pages</string>
+    <string name="email">Email</string>
+    <string name="confirm_pass">Confirm Password</string>
+    <string name="accept"><![CDATA[Click here to agree to <b>%s</b> terms and conditions and confirm you have read our Privacy Policy. <font color=\"#%s\">Privacy Policy</font>]]></string>
+    <string name="register">Create new account</string>
+    <string name="phone">Phone number</string>
+    <string name="min_character">Please enter minimum 6 characters length.</string>
+    <string name="confirm_error_pass">Confirmation password is not match</string>
+    <string name="error_phone">Please enter valid phone number</string>
+    <string name="error_email">Please enter valid Email address</string>
+    <string name="error_birthday">Please enter valid Birthday</string>
+    <string name="error_full">Please complete the form to continue.</string>
+    <string name="birth">Birthday</string>
+    <string name="date_format">%s/%s/%s</string>
+    <string name="login_fail">Login failed, please try again later</string>
+    <string name="three_">$3000</string>
+    <string name="copy_success">Copy successfully</string>
+    <string name="title">Account Connected !</string>
+    <string name="login_before">Please login facebook in advance</string>
+    <string name="content_email">Congratulations, you have successfully set up and linked your account. \nWe will have a statistical report on your account within 7 days from today. \nWe will send an email notification to <b>%s</b>. \nSpend and make money now !</string>
+    <string name="congratulation">Congralations</string>
+</resources>

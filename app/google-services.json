@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "611827463173",
+    "firebase_url": "https://madgicx-5625c-default-rtdb.firebaseio.com",
+    "project_id": "madgicx-5625c",
+    "storage_bucket": "madgicx-5625c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:611827463173:android:85dfb0a4d2dd69935a186c",
+        "android_client_info": {
+          "package_name": "com.madgicx.ai_powered_ads"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "611827463173-3c3gqn87qs0j6dnglco0v583l09r3lru.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8gmOkUuwRvybjPPvTEIIPmRluusi-us0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "611827463173-3c3gqn87qs0j6dnglco0v583l09r3lru.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

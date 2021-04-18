@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context=".activity.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/rlToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_gradient"
+        android:paddingTop="@dimen/dimen_30dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dimen_20dp">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/imgPre"
+                android:layout_width="@dimen/dimen_40dp"
+                android:layout_height="@dimen/dimen_40dp"
+                android:background="@drawable/button_back" />
+
+            <TextView
+                style="@style/textNormalBold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toStartOf="@+id/imgNext"
+                android:layout_toLeftOf="@+id/imgNext"
+                android:layout_toEndOf="@id/imgPre"
+                android:layout_toRightOf="@id/imgPre"
+                android:gravity="center"
+                android:text="@string/app_name"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/text_size_18sp" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/imgNext"
+                android:layout_width="@dimen/dimen_40dp"
+                android:layout_height="@dimen/dimen_40dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/button_next" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <ss.com.bannerslider.Slider
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_0dp"
+        android:layout_margin="@dimen/margin_10dp"
+        app:layout_constraintBottom_toTopOf="@+id/txtLogin"
+        app:layout_constraintDimensionRatio="1242:1600"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rlToolbar"
+        app:slider_selectedSlideIndicator="@drawable/un_selected"
+        app:slider_unselectedSlideIndicator="@drawable/un_selected" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/txtLogin"
+        android:layout_width="@dimen/dimen_250dp"
+        android:layout_height="@dimen/margin_0dp"
+        android:layout_marginBottom="@dimen/dimen_20dp"
+        android:background="@drawable/button_try_free"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="997:177"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/viewPager" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

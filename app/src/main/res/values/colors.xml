@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ff8909</color>
+    <color name="colorPrimaryDark">#ff8909</color>
+    <color name="colorAccent">#FF0000</color>
+    <color name="colorFb">#597ac1</color>
+    <color name="colorBackground">#ffffff</color>
+    <color name="text_color">#4a4a4a</color>
+    <color name="color_active">#00f1ea</color>
+    <color name="color_un_active">#959595</color>
+    <color name="bg_disable">#dde4e4</color>
+</resources>
